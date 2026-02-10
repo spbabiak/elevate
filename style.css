@@ -62,7 +62,7 @@ h1 {
 }
 
 h1 span {
-  color: #FF7C94;
+  color: #a234e2;
 }
 
 h2 {
@@ -99,7 +99,7 @@ header {
   font-style: normal;
   /* font-size: clamp(1.134rem, calc(1.100rem + 0.173vw), 1.229rem); */
   font-size: 1.25rem;
-  color: #FF7C94;
+  color: #a234e2;
   letter-spacing: .35rem;
   text-transform: uppercase;
   display: inline-block;
@@ -152,7 +152,7 @@ header {
     right: 0;
     width: 30px;
     height: 4px;
-    background: linear-gradient(to left, #FF7C94, #1F52F3 100%);
+    background: linear-gradient(to left, #c03ffc, #731fb5 100%);
 }
 
 .mobile div span:nth-child(1) {
@@ -311,11 +311,12 @@ section:not(:first-child) {
 }
 
 .hero-content .button {
-  max-width: 124px;
+  max-width: 140px;
 }
 
 .button-main {
-  background-color: #1E4DF3;
+  background-color: #8c00dd;   
+  /* background-color: #1E4DF3;    */
   color: #fff;
 }
 
@@ -326,7 +327,7 @@ section:not(:first-child) {
 
 .button-ghost {
   background: transparent;
-  border: 1px solid #1E4DF3;
+  border: 1px solid #8c00dd;
   padding: 14px;
 }
 
@@ -349,15 +350,18 @@ section:not(:first-child) {
   position: relative;
   width: 100%;
   max-width: 327px;
-  height: 100%;
 }
 
-.feature::after {
+.feature::after,
+.step::after,
+.pricing-card::after,
+.feedback::after,
+.form-wrapper::after {
   content: '';
   position: absolute;
   height: 100%;
   width: 100%;
-  background: linear-gradient(144deg, #FF7D95, rgb(255 125 149 / 13%) 100%);
+  background: linear-gradient(144deg, #a234e2, rgb(255 125 149 / 13%) 100%);
   top: 50%;
   left: 50%;
   translate: -50% -50%;
@@ -398,13 +402,14 @@ section:not(:first-child) {
 .step-num {
   font-family: 'Inter';
   font-size: 64px;
-  line-height: 1;
-  color: #FF7D95;
+  line-height: .9;
+  color: #a234e2;
 }
 
 .step-header h3,
 .step p {
   text-align: left;
+  margin-bottom: 0;
 }
 
 .step-header h3 {
@@ -414,28 +419,28 @@ section:not(:first-child) {
 /* Steps card */
 
 .step {
-  padding: 44px 22px 41px 22px;
+  padding: 44px 35px 41px 35px;
   border-radius: 55px;
   background: linear-gradient(-47deg, rgb(32 32 32), #535151 100%);
   text-align: center;
   position: relative;
   width: 100%;
-  max-width: 327px;
+  max-width: 365px;
 }
 
-.step::after {
+/* .step::after {
   content: '';
   position: absolute;
   height: 100%;
   width: 100%;
-  background: linear-gradient(144deg, #FF7D95, rgb(255 125 149 / 13%) 100%);
+  background: linear-gradient(144deg, #a234e2, rgb(255 125 149 / 13%) 100%);
   top: 50%;
   left: 50%;
   translate: -50% -50%;
   border-radius: 55px;
   z-index: -1;
   padding: 1px;
-}
+} */
 
 /* End Steps Card */
 
@@ -463,19 +468,19 @@ section:not(:first-child) {
   width: 100%;
 }
 
-.pricing-card::after {
+/* .pricing-card::after {
   content: '';
   position: absolute;
   height: 100%;
   width: 100%;
-  background: linear-gradient(144deg, #FF7D95, rgb(255 125 149 / 13%) 100%);
+  background: linear-gradient(144deg, #8c00dd, rgb(255 125 149 / 13%) 100%);
   top: 50%;
   left: 50%;
   translate: -50% -50%;
   border-radius: 55px;
   z-index: -1;
   padding: 1px;
-}
+} */
 
 .pricing-header {
   display: flex;
@@ -491,7 +496,7 @@ section:not(:first-child) {
   font-family: 'TT Travels';
   font-size: 14px;
   font-weight: 600;
-  color: #5984FF;
+  color: #a234e2;
   letter-spacing: .35rem;
 }
 
@@ -527,7 +532,7 @@ section:not(:first-child) {
 /* End Pricing Card */
 
 .cta {
-  background-color: #1E4DF3;
+  background-color: #8c00dd;
   padding: 30px 40px 30px 40px;
   display: flex;
   justify-content: center;
@@ -558,7 +563,7 @@ section:not(:first-child) {
 .img-wrapper {
   width: 100%;
   height: 100%;
-  max-width: 490px;
+  max-width: 350px;
 }
 
 .img-wrapper img {
@@ -593,19 +598,19 @@ section:not(:first-child) {
   width: 100%;
 }
 
-.feedback::after {
+/* .feedback::after {
   content: '';
   position: absolute;
   height: 100%;
   width: 100%;
-  background: linear-gradient(144deg, #FF7D95, rgb(255 125 149 / 13%) 100%);
+  background: linear-gradient(144deg, #8c00dd, rgb(255 125 149 / 13%) 100%);
   top: 50%;
   left: 50%;
   translate: -50% -50%;
   border-radius: 55px;
   z-index: -1;
   padding: 1px;
-}
+} */
 
 /* End Feedback Card */
 
@@ -626,19 +631,19 @@ section:not(:first-child) {
   flex-direction: column;
 }
 
-.form-wrapper::after {
+/* .form-wrapper::after {
   content: '';
   position: absolute;
   height: 100%;
   width: 100%;
-  background: linear-gradient(144deg, #FF7D95, rgb(255 125 149 / 13%) 100%);
+  background: linear-gradient(144deg, #8c00dd, rgb(255 125 149 / 13%) 100%);
   top: 50%;
   left: 50%;
   translate: -50% -50%;
   border-radius: 55px;
   z-index: -1;
   padding: 1px;
-}
+} */
 
 .fields-group {
   display: flex;
@@ -665,7 +670,7 @@ input[type="submit"] {
   border-radius: 100px;
   font-weight: 700;
   text-align: center;  
-  background-color: #1E4DF3;
+  background-color: #a234e2;
   color: #fff;
   border: none;
   width: fit-content;
@@ -731,7 +736,7 @@ footer .logo {
 .sticky-bar {
   width: 100%;
   height: 50px;
-  background-color: #1F52F3;
+  background-color: #8c00dd;
   position: fixed;
   bottom: 0;
   padding: 10px;
@@ -823,7 +828,7 @@ footer .logo {
   }
 
   .img-wrapper {
-    max-width: 350px; 
+    max-width: 490px; 
   }
 
   .accessibility .text {
