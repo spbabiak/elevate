@@ -345,7 +345,7 @@ section:not(:first-child) {
 .feature {
   padding: 44px 22px 41px 22px;
   border-radius: 55px;
-  background: linear-gradient(-47deg, rgb(32 32 32), #535151 100%);
+  background: linear-gradient(-47deg, #323232e8, #494949 100%);
   text-align: center;
   position: relative;
   width: 100%;
@@ -421,26 +421,12 @@ section:not(:first-child) {
 .step {
   padding: 44px 35px 41px 35px;
   border-radius: 55px;
-  background: linear-gradient(-47deg, rgb(32 32 32), #535151 100%);
+  background: linear-gradient(-47deg, #323232e8, #494949 100%);
   text-align: center;
   position: relative;
   width: 100%;
   max-width: 365px;
 }
-
-/* .step::after {
-  content: '';
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(144deg, #a234e2, rgb(255 125 149 / 13%) 100%);
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
-  border-radius: 55px;
-  z-index: -1;
-  padding: 1px;
-} */
 
 /* End Steps Card */
 
@@ -457,7 +443,7 @@ section:not(:first-child) {
 
 .pricing-card {
   border-radius: 55px;
-  background: linear-gradient(-47deg, rgb(32 32 32), #535151 100%);
+  background: linear-gradient(-47deg, #323232e8, #494949 100%);
   text-align: center;
   position: relative;
   width: 100%;
@@ -467,20 +453,6 @@ section:not(:first-child) {
 .pricing-card .button {
   width: 100%;
 }
-
-/* .pricing-card::after {
-  content: '';
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(144deg, #8c00dd, rgb(255 125 149 / 13%) 100%);
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
-  border-radius: 55px;
-  z-index: -1;
-  padding: 1px;
-} */
 
 .pricing-header {
   display: flex;
@@ -592,25 +564,11 @@ section:not(:first-child) {
 .feedback {
   padding: 44px 22px 41px 22px;
   border-radius: 55px;
-  background: linear-gradient(-47deg, rgb(32 32 32), #535151 100%);
+  background: linear-gradient(-47deg, #323232e8, #494949 100%);
   text-align: center;
   position: relative;
   width: 100%;
 }
-
-/* .feedback::after {
-  content: '';
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(144deg, #8c00dd, rgb(255 125 149 / 13%) 100%);
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
-  border-radius: 55px;
-  z-index: -1;
-  padding: 1px;
-} */
 
 /* End Feedback Card */
 
@@ -622,7 +580,7 @@ section:not(:first-child) {
 .form-wrapper {
   padding: 40px 40px 50px 40px;
   border-radius: 55px;
-  background: linear-gradient(-47deg, rgb(32 32 32), #535151 100%);
+  background: linear-gradient(-47deg, #323232e8, #494949 100%);
   text-align: center;
   position: relative;
   width: 100%;
@@ -630,20 +588,6 @@ section:not(:first-child) {
   display: flex;
   flex-direction: column;
 }
-
-/* .form-wrapper::after {
-  content: '';
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(144deg, #8c00dd, rgb(255 125 149 / 13%) 100%);
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
-  border-radius: 55px;
-  z-index: -1;
-  padding: 1px;
-} */
 
 .fields-group {
   display: flex;
@@ -670,7 +614,7 @@ input[type="submit"] {
   border-radius: 100px;
   font-weight: 700;
   text-align: center;  
-  background-color: #a234e2;
+  background-color: #8c00dd;
   color: #fff;
   border: none;
   width: fit-content;
@@ -692,20 +636,23 @@ select {
 
 select {
   appearance: none;
-  background-image: url('select-arrow.png'); /* Add your custom arrow icon */
+  background-image: url('select-arrow.svg');
   background-repeat: no-repeat;
-  background-position: right 10px center; /* Position the icon */
-  padding-right: 35px; /* Add padding to prevent text from overlapping the icon */
+  background-position: right 10px center;
+  padding-right: 35px;
 }
 
 select option {
   width: 117px;
+}
 
+select option:hover {
+  background-color: #a234e2 !important;
 }
 
 input:focus,
 select:focus {
-  outline: #FF7D95 solid 1px;
+  outline: #a234e2 solid 1px;
 }
 
 label {
