@@ -1,7 +1,7 @@
 $('.mobile div').on('click', () => {
     $('.mobile div').toggleClass('active');
     $('.mobile nav').toggleClass('open');
-    $('.mobile nav ul').toggleClass('show');
+    $('.mobile nav .menu').toggleClass('show');
 });
 
 for (let a = 1; a <= $(".mobile ul li").length; a++){
