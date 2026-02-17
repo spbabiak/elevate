@@ -643,6 +643,7 @@ section:not(:first-child) {
   max-width: 622px;
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
 }
 
 .fields-group {
@@ -661,7 +662,9 @@ section:not(:first-child) {
 
 .form-field label {
   margin-left: 15px;
+  margin-bottom: 5px;
   text-align: left;
+  font-size: 16px;
 }
 
 input[type="submit"] {
@@ -686,7 +689,7 @@ select {
   height: 48px;
   padding: 10px 15px;
   color: #fff;
-  font-size: 16px;
+  font-size: 16px !important;
   cursor: pointer;
 }
 
@@ -717,7 +720,7 @@ label {
 }
 
 footer {
-  margin-top: 80px;
+  margin-top: 280px;
 }
 
 footer .logo {
@@ -824,6 +827,10 @@ footer .logo {
   text-align: left;
  }
 
+ .cta-text h3 {
+  font-size: 1.5rem;
+ }
+
  .cta .button {
   width: auto;
  }
@@ -871,11 +878,104 @@ footer .logo {
    html {
     font-size: 20px;
    }
+
+  .form-wrapper {
+    margin-top: 0;
+  }
 }
 
 @media screen and (min-width: 1400px) {
   
   html {
     font-size: 22px;
+  }
+}
+
+/* circle animation */
+
+#circle {
+  filter: url(#warp);
+  width: 100%;
+  max-width: 486px;
+  margin-top: 50px;
+  animation:  1000ms ease-in alternate circle-appear;
+}
+
+@keyframes circle-appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+/* other animations */
+
+.autoShow {
+  animation:  250ms ease-in alternate text-appear;
+}
+
+@keyframes text-appear {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.btnsAnimation {
+  animation:  1000ms ease-in alternate btns-appear;  
+}
+
+@keyframes btns-appear {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.01);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.cardsReveal {
+  animation: cardsReveal both;
+  animation-timeline: view(10% 5%);
+}
+
+@keyframes cardsReveal {
+  from {
+    opacity: 0;
+    scale: .95;
+    translate: 0 4rem;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+    translate: 0 0;
+  }
+}
+
+.textShow {
+  animation: textReveal;
+  animation-timeline: view();
+}
+
+@keyframes textReveal {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
   }
 }

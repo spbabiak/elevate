@@ -1,0 +1,55 @@
+<svg width="916" height="916" viewBox="0 0 916 916" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_501_416" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="916" height="916">
+<circle cx="458" cy="458" r="458" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_501_416)">
+<g filter="url(#filter0_d_501_416)">
+<path d="M1363 39H-323V34H1363V39Z" fill="#A234E2"/>
+<path d="M1363 5H-323V0H1363V5Z" fill="#A234E2"/>
+<path d="M1363 444H-323V439H1363V444Z" fill="#A234E2"/>
+<path d="M1363 410H-323V405H1363V410Z" fill="#A234E2"/>
+<path d="M1363 242H-323V237H1363V242Z" fill="#A234E2"/>
+<path d="M1363 208H-323V203H1363V208Z" fill="#A234E2"/>
+<path d="M1363 242H-323V237H1363V242Z" fill="#A234E2"/>
+<path d="M1363 208H-323V203H1363V208Z" fill="#A234E2"/>
+<path d="M1363 646H-323V641H1363V646Z" fill="#A234E2"/>
+<path d="M1363 612H-323V607H1363V612Z" fill="#A234E2"/>
+<path d="M1363 107H-323V102H1363V107Z" fill="#A234E2"/>
+<path d="M1363 73H-323V68H1363V73Z" fill="#A234E2"/>
+<path d="M1363 511H-323V506H1363V511Z" fill="#A234E2"/>
+<path d="M1363 477H-323V472H1363V477Z" fill="#A234E2"/>
+<path d="M1363 309H-323V304H1363V309Z" fill="#A234E2"/>
+<path d="M1363 275H-323V270H1363V275Z" fill="#A234E2"/>
+<path d="M1363 309H-323V304H1363V309Z" fill="#A234E2"/>
+<path d="M1363 275H-323V270H1363V275Z" fill="#A234E2"/>
+<path d="M1363 714H-323V709H1363V714Z" fill="#A234E2"/>
+<path d="M1363 680H-323V675H1363V680Z" fill="#A234E2"/>
+<path d="M1363 849H-323V844H1363V849Z" fill="#A234E2"/>
+<path d="M1363 815H-323V810H1363V815Z" fill="#A234E2"/>
+<path d="M1363 174H-323V169H1363V174Z" fill="#A234E2"/>
+<path d="M1363 140H-323V135H1363V140Z" fill="#A234E2"/>
+<path d="M1363 579H-323V574H1363V579Z" fill="#A234E2"/>
+<path d="M1363 545H-323V540H1363V545Z" fill="#A234E2"/>
+<path d="M1363 377H-323V372H1363V377Z" fill="#A234E2"/>
+<path d="M1363 343H-323V338H1363V343Z" fill="#A234E2"/>
+<path d="M1363 377H-323V372H1363V377Z" fill="#A234E2"/>
+<path d="M1363 343H-323V338H1363V343Z" fill="#A234E2"/>
+<path d="M1363 781H-323V776H1363V781Z" fill="#A234E2"/>
+<path d="M1363 747H-323V742H1363V747Z" fill="#A234E2"/>
+<path d="M1363 916H-323V911H1363V916Z" fill="#A234E2"/>
+<path d="M1363 882H-323V877H1363V882Z" fill="#A234E2"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_501_416" x="-325" y="-2" width="1690" height="920" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.219535 0 0 0 0 0.0327086 0 0 0 0 0.328234 0 0 0 0.9 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_501_416"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_501_416" result="shape"/>
+</filter>
+</defs>
+</svg>
