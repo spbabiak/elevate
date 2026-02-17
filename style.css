@@ -834,6 +834,21 @@ footer .logo {
  .cta .button {
   width: auto;
  }
+
+ .headerShow {
+  animation:  650ms ease alternate headerShow;    
+}
+
+@keyframes headerShow {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 }
 
 @media screen and (min-width: 960px) {
@@ -913,11 +928,27 @@ footer .logo {
 
 /* other animations */
 
-.autoShow {
-  animation:  250ms ease-in alternate text-appear;
+
+.headingShow {
+  animation:  650ms ease alternate headingShow;  
 }
 
-@keyframes text-appear {
+@keyframes headingShow {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.stickyShow {
+  animation:  650ms ease alternate stickyBarShow;
+}
+
+@keyframes stickyBarShow {
   from {
     opacity: 0;
     transform: translateY(50px);
@@ -929,20 +960,15 @@ footer .logo {
 }
 
 .btnsAnimation {
-  animation:  1000ms ease-in alternate btns-appear;  
+  animation: 1500ms ease alternate btnsShow;  
 }
 
-@keyframes btns-appear {
+@keyframes btnsShow {
   0% {
     opacity: 0;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 1;
-    transform: scale(1.01);
   }
   100% {
-    transform: scale(1);
+    opacity: 1;
   }
 }
 
