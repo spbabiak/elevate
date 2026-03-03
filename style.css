@@ -345,6 +345,8 @@ section:not(:first-child) {
 .circle {
   min-width: 327px;
   max-width: 564px;
+  width: 100%;
+  animation:  650ms ease alternate circleShow;  
 }
 
 .buttons {
@@ -906,28 +908,18 @@ footer .logo {
   }
 }
 
-/* circle animation */
-
-#circle {
-  filter: url(#warp);
-  width: 100%;
-  max-width: 486px;
-  margin-top: 50px;
-  animation:  1000ms ease-in alternate circle-appear;
-}
-
-@keyframes circle-appear {
+@keyframes circleShow {
   from {
     opacity: 0;
+    transform: translateX(50px);
   }
   to {
     opacity: 1;
+    transform: translateX(0px);
   }
 }
 
-
 /* other animations */
-
 
 .headingShow {
   animation:  650ms ease alternate headingShow;  
